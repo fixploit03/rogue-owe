@@ -11,8 +11,8 @@ make
 make install
 ldconfig
 
-# instal rogue_wpa3
+# instal rogue_owe
 cd ~
-git clone https://github.com/fixploit03/rogue-wpa3.git
-cd rogue-wpa3/src
-chmod +x rogue_wpa3.sh
+git clone https://github.com/fixploit03/rogue-owe.git
+cd rogue-owe3/src
+chmod +x rogue_owe.sh
