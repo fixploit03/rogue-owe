@@ -17,5 +17,3 @@
 7. Masukkan nilai kunci TK yang ada di `rogue_wpa3.sh` di kolom `Key`
 8. Klik `OK`
 9. Klik `Apply`
-
-Gunakan dengan bijak 🗿
