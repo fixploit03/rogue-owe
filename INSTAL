@@ -9,8 +9,10 @@ cd hostapd-2.11/hostapd
 wget -4 https://raw.githubusercontent.com/fixploit03/rogue-wpa3/refs/heads/main/.config
 make
 make install
+ldconfig
 
 # instal rogue_wpa3
+cd ~
 git clone https://github.com/fixploit03/rogue-wpa3.git
 cd rogue-wpa3.git
 chmod +x rogue_wpa3.sh
