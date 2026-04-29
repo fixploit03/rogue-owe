@@ -1,6 +1,6 @@
 # Rogue OWE
 
-<img src="https://github.com/fixploit03/rogue-owe/blob/main/ilustrasi.ng" width="800"/>
+<img src="https://github.com/fixploit03/rogue-owe/blob/main/img/ilustrasi.ng" width="800"/>
 
 Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK. 
 
@@ -24,4 +24,4 @@ Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci T
 
 ## Screenshot
 
-<img src="https://github.com/fixploit03/rogue-wpa3/blob/main/wireshark.png" width="800"/>
+<img src="https://github.com/fixploit03/rogue-owe/blob/main/img/wireshark.png" width="800"/>
