@@ -1,0 +1,16 @@
+# update & instal dependensi
+apt update
+apt install build-essential gcc make libnl-3-dev libnl-genl-3-dev libssl-dev pkg-config git
+
+# instal hostapd
+wget -4 https://w1.fi/releases/hostapd-2.11.tar.gz
+tar -zxf hostapd-2.11.tar.gz
+cd hostapd-2.11/hostapd
+wget -4 
+make
+make install
+
+# instal rogue_wpa3
+git clone https://github.com/fixploit03/rogue-wpa3.git
+cd rogue-wpa3.git
+chmod +x rogue_wpa3.sh
