@@ -27,11 +27,11 @@ fi
 # validasi ekstensi file capture
 case "${file_capture}" in
 	*.cap|*.pcap|*.pcapng)
-        	;;
+		;;
 	*)
 		echo "ERROR: File '${file_capture}' bukan file capture!"
 		exit 1
-	;;
+		;;
 esac
 
 # validasi kunci tk
