@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Decrypt trafik Wi-Fi WPA3-Personal menggunakan kunci TK
+# Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK
 # Dibuat oleh: Rofi (Fixploit03)
 
 set -e
@@ -18,7 +18,7 @@ if [[ "${EUID}" -ne 0 ]]; then
 fi
 
 # konfigurasi
-banner="rogue wpa3"
+banner="rogue owe"
 interface_ap="${1}"
 interface_internet="${2}"
 ip_address="10.10.10.1/24"
@@ -81,12 +81,9 @@ ssid=TESTING
 hw_mode=g
 channel=11
 wpa=2
-wpa_key_mgmt=SAE
+wpa_key_mgmt=OWE
 rsn_pairwise=CCMP
-sae_password=12345678
 ieee80211w=2
-sae_require_mfp=1
-sae_pwe=2
 EOF
 
 # ngaktifin ip forwarding
