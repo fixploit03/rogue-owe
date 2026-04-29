@@ -12,6 +12,6 @@
 4. Klik `Edit`
 5. Klik `+`
 6. Untuk `Key type` pilih `tk`
-7. Masukkan nilai TK yang ada di `rogue_wpa3.sh` di kolom `Key`
+7. Masukkan nilai kunci TK yang ada di `rogue_wpa3.sh` di kolom `Key`
 8. Klik `OK`
 9. Klik `Apply`
