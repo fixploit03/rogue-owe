@@ -7,7 +7,7 @@ set -e
 
 # cek jumlah argumen
 if [[ "${#}" -ne 2 ]]; then
-	echo "Usage: sudo bash ${0} <interface_ap> <interface_internet>"
+	echo "Usage: sudo ./${0} <interface_ap> <interface_internet>"
 	exit 1
 fi
 
