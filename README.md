@@ -1,5 +1,6 @@
 # Rogue OWE
 <img src="https://github.com/fixploit03/rogue-owe/blob/main/ilustrasi.ng" width="800"/>
+Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK. 
 
 ## Cara Menggunakan
 1. Jalankan Rogue AP
