@@ -1,7 +1,12 @@
 #!/bin/bash
 #
-# Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK
-# Dibuat oleh: Rofi (Fixploit03)
+#...............................................................
+#
+#.......: rogue_owe.sh
+#.......: Dibuat oleh: Rofi (Fixploit03)
+#.......: GitHub: https://github.com/fixploit03/rogue-owe
+#
+#...............................................................
 
 set -e
 
